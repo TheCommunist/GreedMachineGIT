@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: c0b3e8877d7b9448b9e3c8579e1eb9b8
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: barrel
+    100002: body
+    100004: //RootNode
+    100006: tow
+    100008: treads_L
+    100010: treads_R
+    100012: wheel_03
+    100014: wheel_13
+    100016: wheel_16
+    100018: wheel_17
+    100020: wheel_18
+    100022: wheel_19
+    100024: wheel_20
+    100026: wheel_21
+    100028: wheel_22
+    100030: wheel_23
+    100032: wheel_24
+    100034: wheel_25
+    100036: wheel_26
+    100038: wheel_27
+    100040: wheel_28
+    100042: wheel_29
+    400000: barrel
+    400002: body
+    400004: //RootNode
+    400006: tow
+    400008: treads_L
+    400010: treads_R
+    400012: wheel_03
+    400014: wheel_13
+    400016: wheel_16
+    400018: wheel_17
+    400020: wheel_18
+    400022: wheel_19
+    400024: wheel_20
+    400026: wheel_21
+    400028: wheel_22
+    400030: wheel_23
+    400032: wheel_24
+    400034: wheel_25
+    400036: wheel_26
+    400038: wheel_27
+    400040: wheel_28
+    400042: wheel_29
+    2300000: barrel
+    2300002: body
+    2300004: tow
+    2300006: treads_L
+    2300008: treads_R
+    2300010: wheel_03
+    2300012: wheel_13
+    2300014: wheel_16
+    2300016: wheel_17
+    2300018: wheel_18
+    2300020: wheel_19
+    2300022: wheel_20
+    2300024: wheel_21
+    2300026: wheel_22
+    2300028: wheel_23
+    2300030: wheel_24
+    2300032: wheel_25
+    2300034: wheel_26
+    2300036: wheel_27
+    2300038: wheel_28
+    2300040: wheel_29
+    3300000: barrel
+    3300002: body
+    3300004: tow
+    3300006: treads_L
+    3300008: treads_R
+    3300010: wheel_03
+    3300012: wheel_13
+    3300014: wheel_16
+    3300016: wheel_17
+    3300018: wheel_18
+    3300020: wheel_19
+    3300022: wheel_20
+    3300024: wheel_21
+    3300026: wheel_22
+    3300028: wheel_23
+    3300030: wheel_24
+    3300032: wheel_25
+    3300034: wheel_26
+    3300036: wheel_27
+    3300038: wheel_28
+    3300040: wheel_29
+    4300000: body
+    4300002: wheel_16
+    4300004: wheel_13
+    4300006: wheel_03
+    4300008: tow
+    4300010: barrel
+    4300012: treads
+    4300014: wheel_17
+    4300016: wheel_18
+    4300018: wheel_19
+    4300020: wheel_20
+    4300022: wheel_21
+    4300024: wheel_22
+    4300026: wheel_23
+    4300028: wheel_24
+    4300030: wheel_25
+    4300032: wheel_26
+    4300034: wheel_27
+    4300036: wheel_28
+    4300038: wheel_29
+    4300040: treads_L
+    4300042: treads_R
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
