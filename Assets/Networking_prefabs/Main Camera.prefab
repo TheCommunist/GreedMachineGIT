@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa19facd6cb53c94490684dd9d95e7ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 116416, guid: df1046762ca4ac8489153e15811165a4, type: 2}
   distance: 10
   offset: 6
 --- !u!114 &11498184
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4876c7069aef088408f149f8636c9ba7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visiblePoint: {fileID: 0}
+  visiblePoint: {fileID: 169210, guid: af1064a724335e649ac9e994d2240db0, type: 2}
 --- !u!124 &12442512
 Behaviour:
   m_ObjectHideFlags: 1
@@ -120,7 +120,15 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: visiblePoint
+      value: 
+      objectReference: {fileID: 169210, guid: af1064a724335e649ac9e994d2240db0, type: 2}
+    - target: {fileID: 0}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 116416, guid: df1046762ca4ac8489153e15811165a4, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 193532}
