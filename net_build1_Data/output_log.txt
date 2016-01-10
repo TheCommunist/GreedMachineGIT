@@ -14,26 +14,39 @@ Platform assembly: E:\gitUnity\net_build1_Data\Managed\UnityEngine.UI.dll (this 
 Loading E:\gitUnity\net_build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: E:\gitUnity\net_build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading E:\gitUnity\net_build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.124 seconds
+- Completed reload, in  0.037 seconds
 Platform assembly: E:\gitUnity\net_build1_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: E:\gitUnity\net_build1_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 5520x1315 at -1680,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.446091 ms
+UnloadTime: 0.467476 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 5ab8 -> priority: 1 
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.207834 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 337.
-Total: 0.144580 ms (FindLiveObjects: 0.006927 ms CreateObjectMapping: 0.011747 ms MarkObjects: 0.121688 ms  DeleteObjects: 0.003915 ms)
-
-MatchMakingClient Create :https://mm.unet.unity3d.com/json/reply/CreateMatchRequest
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
+  Thread -> id: 79a8 -> priority: 1 
+Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660 Ti (ID=0x1183)
+    Vendor:   NVIDIA
+    VRAM:     1984 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\gitUnity\net_build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\gitUnity\net_build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\gitUnity\net_build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\gitUnity\net_build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\gitUnity\net_build1_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 5520x1315 at -1680,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
 Initialize engine version: 5.3.1f1 (cc9cbbcc37b4)
 GfxDevice: creating device client; threaded=1
 Direct3D:
@@ -56,63 +69,50 @@ Platform assembly: E:\gitUnity\net_build1_Data\Managed\System.dll (this message 
 desktop: 1920x1080 60Hz; virtual: 5520x1315 at -1680,0
 <RI> Initializing input.
 <RI> Input initialized.
-JSON Response: [[UnityEngine.Networking.Match.CreateMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x0010000000034413,nodeId:0x1BA1,usingRelay:True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
 <RI> Initialized touch support.
-UnloadTime: 0.457838 ms
+UnloadTime: 0.469585 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 5e54 -> priority: 1 
-MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+  Thread -> id: 3828 -> priority: 1 
+UnloadTime: 0.448199 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 7a20 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.537959 ms
+UnloadTime: 0.218075 ms
+UnloadTime: 0.184942 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 363.
+Total: 0.150905 ms (FindLiveObjects: 0.009036 ms CreateObjectMapping: 0.010843 ms MarkObjects: 0.1
+303 ms  DeleteObjects: 0.005U2nlosa
+
+ding 5 unused Assets to reduce memory usage. Loaded Objects now: 363.
+Total: 0.302715 ms (FindLiveObjects: 0.008433 ms CreateObjectMapping: 0.011144 ms MarkObjects: 0.276811 ms  DeleteObjects: 0.006024 ms)
+
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 478.
+Total: 0.200003 ms (FindLiveObjects: 0.015361 ms CreateObjectMapping: 0.011144 ms MarkObjects: 0.167773 ms  DeleteObjects: 0.005421 ms)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+NetworkMigrationManager LostHostOnHost client was never initialized.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-MatchMakingClient ListMatches :https://mm.unet.unity3d.com/json/reply/ListMatchRequest
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+UnloadTime: 0.478019 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 345.
+Total: 0.182231 ms (FindLiveObjects: 0.006927 ms CreateObjectMapping: 0.010542 ms MarkObjects: 0.131628 ms  DeleteObjects: 0.032831 ms)
+
+NetworkMigrationManager LostHostOnHost client was never initialized.
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
 
-JSON Response: [[UnityEngine.Networking.Match.ListMatchResponse]-success:True-extendedInfo:]-matches.Count:1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.480127 ms
 
-JSON Response: [[UnityEngine.Networking.Match.ListMatchResponse]-success:True-extendedInfo:]-matches.Count:1
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-MatchMakingClient Join :https://mm.unet.unity3d.com/json/reply/JoinMatchRequest
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-JSON Response: [[UnityEngine.Networking.Match.JoinMatchResponse]-success:True-extendedInfo:]-address:52.6.182.178,port:9999,networkId:0x0010000000034413,nodeId:0x1B0C,usingRelay:True
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.251811 ms
-
-Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 454.
-Total: 0.191267 ms (FindLiveObjects: 0.032229 ms CreateObjectMapping: 0.012048 ms MarkObjects: 0.141869 ms  DeleteObjects: 0.005120 ms)
-
-Attempt to send to not connected connection {1}
- 
-(Filename:  Line: 321)
-
-Failed to send internal buffer channel:0 bytesToSend:50
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Send Error: 2 channel:0 bytesToSend:50
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Empty player list given to NetworkServer.Destroy(), nothing to do.
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 37)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.228919 ms
-
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 338.
-Total: 0.206930 ms (FindLiveObjects: 0.006927 ms CreateObjectMapping: 0.011445 ms MarkObjects: 0.183737 ms  DeleteObjects: 0.004216 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 345.
+Total: 0.173797 ms (FindLiveObjects: 0.006927 ms CreateObjectMapping: 0.010542 ms MarkObjects: 0.122592 ms  DeleteObjects: 0.033434 ms)
 
