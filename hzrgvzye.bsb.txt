@@ -1,0 +1,36 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is behind 'origin/master' by 1 commit, and can be fast-forwarded.
+#   (use "git pull" to update your local branch)
+#
+# Changes to be committed:
+#	modified:   .gitignore
+#	modified:   Assets/CameraFollow.cs
+#	modified:   Assets/DirtMat.mat
+#	new file:   Assets/Grenade.prefab
+#	new file:   Assets/Grenade.prefab.meta
+#	new file:   Assets/HUD.meta
+#	new file:   Assets/HUD/Materials.meta
+#	new file:   Assets/HUD/Materials/redAim_Tex.mat
+#	new file:   Assets/HUD/Materials/redAim_Tex.mat.meta
+#	new file:   Assets/HUD/redAim_Tex.png
+#	new file:   Assets/HUD/redAim_Tex.png.meta
+#	new file:   Assets/Main Camera.prefab
+#	new file:   Assets/Main Camera.prefab.meta
+#	new file:   Assets/Red.mat
+#	new file:   Assets/Red.mat.meta
+#	new file:   Assets/RollerBall.meta
+#	new file:   Assets/RollerBall/Scripts.meta
+#	new file:   Assets/RollerBall/Scripts/RollerBallMovement.cs
+#	new file:   Assets/RollerBall/Scripts/RollerBallMovement.cs.meta
+#	new file:   Assets/RollerBall/Scripts/TestFire.cs
+#	new file:   Assets/RollerBall/Scripts/TestFire.cs.meta
+#	new file:   Assets/RollerBall/Scripts/TestingForward.cs
+#	new file:   Assets/RollerBall/Scripts/TestingForward.cs.meta
+#	modified:   Assets/SciFi-Tanks/Scripts/MouseAim.cs
+#	modified:   Assets/testtesttest.unity
+#	modified:   ProjectSettings/ProjectSettings.asset
+#
+

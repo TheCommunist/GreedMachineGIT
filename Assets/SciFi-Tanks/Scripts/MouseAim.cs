@@ -17,7 +17,7 @@ public class MouseAim : MonoBehaviour
 		Debug.DrawRay(ray.origin, ray.direction * 10, Color.red);
 		RaycastHit hit;
 
-		if(Physics.Raycast (ray, out hit))
+		if(Physics.Raycast (ray, out hit) && visiblePoint != null)
 		{
 			visiblePoint.transform.position = hit.point;
 		}
