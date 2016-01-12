@@ -6,6 +6,8 @@ public class NetworkedPlayerScript : NetworkBehaviour
     public TankFPSControl fpsController;
     public Camera fpsCamera;
     public AudioListener audioListener;
+    public MouseAim mouseAim;
+    public TestFire testFire;
     //public ShootingScript shootingScript;
     //public CandyCaneMaterialSwitcher candyMaterialSwitcher;
 
@@ -21,6 +23,8 @@ public class NetworkedPlayerScript : NetworkBehaviour
         fpsController.enabled = true;
         fpsCamera.enabled = true;
         audioListener.enabled = true;
+        mouseAim.enabled = true;
+        testFire.enabled = true;
         //shootingScript.enabled = true;
         //candyMaterialSwitcher.SwitchMaterial(true);
 
@@ -39,6 +43,7 @@ public class NetworkedPlayerScript : NetworkBehaviour
         fpsController.enabled = isAlive;
         //shootingScript.enabled = isAlive;
         fpsCamera.cullingMask = ~fpsCamera.cullingMask;
+        testFire.enabled = isAlive;
     }
 
     [ClientRpc]

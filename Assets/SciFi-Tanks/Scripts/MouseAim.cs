@@ -19,8 +19,13 @@ public class MouseAim : MonoBehaviour
 
 		if(Physics.Raycast (ray, out hit) && visiblePoint != null)
 		{
-			visiblePoint.transform.position = hit.point;
-		}
+            visiblePoint.SetActive(true);
+            visiblePoint.transform.position = hit.point;
+        }
+        else
+        {
+            visiblePoint.SetActive(false);
+        }
 
 	}
 

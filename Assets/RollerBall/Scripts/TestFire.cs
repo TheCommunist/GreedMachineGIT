@@ -1,12 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 
-public class TestFire : MonoBehaviour 
+public class TestFire : NetworkBehaviour
 {
 	public GameObject source;
 	public GameObject destination;
 	public Rigidbody grenadePrefab;
+    public GameObject grenadeObj;
 	public float grenadeSpeed;
 
 	public int maxNumberOfFieldedGrenades= 1;
@@ -31,11 +33,12 @@ public class TestFire : MonoBehaviour
 
 		if(Input.GetKeyDown(KeyCode.Escape))
 		{
-			FireGrenade();
+			CmdFireGrenade();
 		}
 	}
 
-	void FireGrenade()
+    [Command]
+	void CmdFireGrenade()
 	{
 		//check to see how many active grenades have been fired
 		for(int i = 0; i < activeGrenades.Count; i++)
@@ -48,11 +51,14 @@ public class TestFire : MonoBehaviour
 		print(activeGrenades.Count);
 		if(activeGrenades.Count < maxNumberOfFieldedGrenades)
 		{
-			Rigidbody grenadeClone; 
+			Rigidbody grenadeClone;
 
-			grenadeClone = Instantiate(grenadePrefab, fireOrigin, transform.rotation) as Rigidbody;
-
-			if(grenadeClone != null)
+            //grenadeClone = Instantiate(grenadePrefab, fireOrigin, transform.rotation) as Rigidbody;
+            GameObject gco = (GameObject)Instantiate(grenadeObj, transform.position, transform.rotation);
+            grenadeClone = gco.GetComponent<Rigidbody>();
+            NetworkServer.Spawn(gco);
+            //NetworkServer.SpawnWithClientAuthority(gco, connectionToClient);
+            if (grenadeClone != null)
 			{
 				grenadeClone.AddForce(aimVector *200);
 				activeGrenades.Add( grenadeClone.gameObject);
